@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Sneha Travels</title>
+<form>
+	<h1><font face = "Georgia" color="#3366ff"><center>Welcome to Sneha Travels</center></font></h1>
+</form>
+</head>
+<style>
+body {
+    background-image: url("bus.png");
+    }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color : black; 
+    
+}
+form {
+	background-color : black;
+}
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #3366ff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: white;
+}
+
+.color{
+    color:white;
+}
+
+</style>
+<body>
+
+	<nav>
+	<ul><center>
+	<li><a href = "index.html"> Home </a> </li>
+	<li><a href = "about.html"> About us </a></li>
+	<li><a href = "contact.html"> Contact us </a></li>
+	<li style = "float:right" ><a href = "login.html"> Login </a></li>
+	</center></ul>
+	</nav>
+
+<form action = "RegisterServlet" method = "post">
+    
+    <div style="position: absolute; left: 15%; margin-left: 225px; width: 300px; height: 500px; border: 1px solid blue">
+    <h3  class = "color" align = "center"> REGISTER</h3>
+    <div class = "color" align = "center">Full Name</br>
+    <input type = "text" name = "name"></br>
+    </div>
+    <div class = "color" align = "center">User Id</br>
+    <input type = "text" name = "userId"></br>
+    </div>
+    <div class = "color" align = "center">Age</br>
+    <input type = "text" name = "age"></br>
+    </div>
+    <div class = "color" align = "center"><u>Gender</u></br>
+    <input type = "radio" name = "gender" value = "M"> Male 
+    <input type = "radio" name = "gender" value = "F">Female</br></br>
+    </div>
+    <div class = "color" align = "center">Mail Id</br>
+    <input type = "text" name = "mailId"></br>
+    </div>
+    <div class = "color" align = "center">Type of Login</br>
+    <input type = "text" name = "type">
+    </div>
+    <div class = "color" align = "center">Password </br>
+    <input type = "password" name = "password"></br>
+    </div>
+    <div class = "color" align = "center">Confirm Password</br>
+    <input type = "password" name = "ConfirmPassword"></br>
+    </div>
+    </br>
+    <div align = "center">
+        <input type = "submit" value = "Submit" style="background-color:yellowgreen;color:white;padding:5px;font-size:18px;border:none;padding:8px;">
+        <input type = "reset" value="Reset" style = "background-color:#cc2900;color:white;padding:5px;font-size:18px;border:none;padding:8px;">
+    </a>
+    </div>
+</div>
+
+
+</body>
+</html>

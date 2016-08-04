@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Sneha Travels</title>
+<form class = "form">
+	<h1><font face = "Georgia" color="#3366ff"><center>Welcome to Sneha Travels</center></font></h1>
+</form>
+</head>
+<style>
+body {
+    background-image: url("bus.png");
+    }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color : black; 
+    
+}
+.form {
+	background-color : black;
+}
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #3366ff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: white;
+}
+
+.color{
+    color: white;
+}
+
+.noline {
+    text-decoration: none;
+}
+
+</style>
+<body>
+
+	<nav>
+	<ul><center>
+	<li><a href = "index.html"> Home </a> </li>
+	<li><a href = "about.html"> About us </a></li>
+	<li><a href = "contact.html"> Contact us </a></li>
+	<li style = "float:right" ><a href = "login.html"> Login </a></li>
+	</center></ul>
+	</nav>
+
+ <form action = "LoginServlet" method = "post">
+    <div style="position: absolute; left: 15%; margin-left: 225px; width: 300px; height: 325px; border: 1px solid blue">
+        </br>
+        <div class = "color" align = "center" >User Id:</br> <input type = "text" name = "user_id"></br>
+        </div>
+        </br>
+        <div class = "color" align = "center">Password: </br><input type = "password" name = "password"></br>
+        </div>
+        </br>
+        <div class = "color" align = "center">Type of Login:</br><input type = "text" name = "type"> </br>
+        </div>
+        </br>
+        <div align = "center">
+        <input type = "submit" value = "Login" style="background-color:yellowgreen;color:white;padding:5px;font-size:18px;border:none;padding:8px;">
+        </a>
+        <a class = "noline" href = "register.html" style="background-color:#cc2900;color:white;padding:5px;font-size:18px;border:none;padding:8px;"> Register
+        </a>
+        </br> </div>
+        </div>
+        </div> 
+    </form>
+</body>
+</html>
