@@ -63,6 +63,15 @@ public class User {
 		this.mailId = mailId;
 	}
 	
-	public User(){};
+	public User(){}
+	
+	
+	@Override
+	public String toString() {
+		return "User [userId=" + userId + ", password=" + password + ", name=" + name + ", type=" + type + ", age="
+				+ age + ", gender=" + gender + ", mailId=" + mailId + "]";
+	};
+	
+	
 	
 }
